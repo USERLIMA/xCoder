@@ -25,5 +25,14 @@
                 "LANÇAMENTO": 2022,
                 "CARTAZ": false
                 
+        },
+        {
+                "CODIGO": 2024,
+                "TITULO": "Sonin Blanin",
+                "TEMPO": 1000000,
+                "ATORES": "Pow Pow",
+                "LANÇAMENTO": 2022,
+                "CARTAZ": true
+
         }
 ]
