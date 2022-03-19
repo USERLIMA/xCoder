@@ -1,0 +1,29 @@
+[
+        {
+            "CODIGO": 2077,
+            "TITULO": "CYBERPUNK",
+            "TEMPO": 400.34,
+            "ATORES": ["Jonhy Silverhand", "V"],
+            "LANÇAMENTO": 2021,
+            "CARTAZ": false
+        },
+        {
+                "CODIGO": 2022,
+                "TITULO": "MATRIX",
+                "TEMPO": 3,
+                "ATORES": "Nicolas Kage",
+                "LANÇAMENTO": 2021,
+                "CARTAZ": true
+
+        },
+
+        {
+                "CODIGO": 2023,
+                "TITULO": "AVATAR",
+                "TEMPO": 500,
+                "ATORES": "UBERSON",
+                "LANÇAMENTO": 2022,
+                "CARTAZ": false
+                
+        }
+]
