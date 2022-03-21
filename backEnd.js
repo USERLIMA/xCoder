@@ -35,5 +35,32 @@ const backEnd = express();
 
 //routing_response
 
-backEnd.get('/', (req, res) => res.send('Olá mundo'))
-backEnd.listen(3000, () => console.log('Servidor rodando na porta 3000'))
+backEnd.get('/', (req, res) => res.send('Olá mundo'));
+
+//backEnd.get('/contatos', (req, res) => res.send(["contato1","contato2"]));
+backEnd.get('/contatos', (req, res) => res.send({
+    nome: 'Caio',
+    idade: 21,
+    cidade: 'SP'
+}));
+
+backEnd.listen(3000, () => console.log('Servidor rodando na porta 3000'));
+
+
+let produto = {
+    tipoProduto: null,
+    preco: null,
+    quantidade: null
+};
+  
+backEnd.post('/produto/criar', (req, res) => res.send(produto ={
+      tipoProduto: "living",
+      preco: 1245,
+      quantidade: 300
+}));
+
+
+//perguntar pq não retorna o novo objt, e permaneço null no localhost
+
+backEnd.get('/produto/criar', (req, res) => res.send(produto));
+  
