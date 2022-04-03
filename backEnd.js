@@ -4,6 +4,7 @@
 
 const http = require('http');
 const express = require('express');
+const { response } = require('express');
 const backEnd = express();
 
 
@@ -63,4 +64,31 @@ backEnd.post('/produto/criar', (req, res) => res.send(produto ={
 //perguntar pq não retorna o novo objt, e permaneço null no localhost
 
 backEnd.get('/produto/criar', (req, res) => res.send(produto));
-  
+
+backEnd.get('/carrinho', (req, res) => {
+    const produtosD = [
+       {nome: 'Teclado', preco: 100},
+       {nome: 'mouse', preco: 200},
+       {nome: 'mouse pad', preco: 300},
+    ];
+
+    let total = 0;
+    for (let i = 0; i < produtosD.length; i++) {
+        total = produtosD[i].preco + total;
+    }
+    const resumo = [...produtosD, {total: total}]
+
+    res.send(resumo);
+})
+
+backEnd.use(express.json())
+
+backEnd.post('/autenticate', (req, res) => {
+    const body = req.body
+    if(body.idade >= 18) {
+        res.send('autorizado')
+    } else {
+        res.send('não esta autorizado')
+    }
+})
+
