@@ -45,7 +45,7 @@ backEnd.get('/contatos', (req, res) => res.send({
     cidade: 'SP'
 }));
 
-backEnd.listen(3000, () => console.log('Servidor rodando na porta 3000'));
+
 
 
 let produto = {
@@ -91,4 +91,6 @@ backEnd.post('/autenticate', (req, res) => {
         res.send('não esta autorizado')
     }
 })
+
+backEnd.listen(3000, () => console.log('Servidor rodando na porta 3000'));
 
