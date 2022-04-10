@@ -1,3 +1,21 @@
+div.headerLogo {
+        /* display: inline; */
+        display: inline;
+        width: 10px;
+        height: 10px;
+        margin: 10px auto;
+        padding: 10px;
+        border: 3px dottop;
+}
+
+div.carrinhoDeComprasXcoder {
+	position: absolute;
+	left: 84%;
+	top: -10%;
+    size: 50px;
+}
+
+
 body {
     font-family: arial;
     color: white;
@@ -48,12 +66,83 @@ ul#redeSocial li {color: yellow}
     size: 10px;
 }
 
-#carrinhoDeCompras{
+/* #carrinhoDeCompras{
     text-align: right;
     size: 10px;
 }
+*/
+
 
 #carrinhoDeCompras2{
     text-align: right;
     size: 10px;
+}
+
+div.caixa1 {
+    background-color: grey;
+    border-top: 5px solid white;
+}
+
+div.caixa2 {
+    background-color: blue;
+    border: 5px solid white;
+}
+
+div.caixa3 {
+    background-color: red;
+    border-bottom: 5px dotted white;
+}
+
+div.caixa4 {
+    background-color: pink;
+    border: 5px dotted white;
+}
+
+
+
+div {
+    /* display: inline; */
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    margin: 30px auto;
+    padding: 50px;
+    border: 3px dottop;
+
+}
+
+header {
+    background-color: lightseagreen;
+    color: white;
+    font-size: 28px;
+    border-bottom: 3px solid indigo;
+    padding: 22px;
+    margin-bottom: 10px;
+    text-align: center;
+    box-sizing: border-box;
+
+}
+
+section {
+    width: 50%;
+    margin-left: 25%;
+    background-color: gainsboro;
+    color: white;
+    margin-bottom: 15px;
+    padding-left: 12px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border: 1px dashed black;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+footer {
+    background-color: rebeccapurple;
+    color: white;
+    border-top: 1px lightseagreen;
+    padding: 12px;
+    height: 40px;
+    text-align: center;
+    box-sizing: border-box;
 }
