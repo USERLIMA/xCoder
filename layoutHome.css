@@ -1,3 +1,8 @@
+/*@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@200&display=swap');
+*/
+.EXEMPLO {
+    @import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@200&display=swap');
+}
 div.headerLogo {
         /* display: inline; */
         display: inline;
@@ -6,13 +11,25 @@ div.headerLogo {
         margin: 10px auto;
         padding: 10px;
         border: 3px dottop;
+        max-width: 100%;
 }
 
 div.carrinhoDeComprasXcoder {
+    display: inline;
+    width: 15%;
+    height: 15%;
+    margin: 15% auto;
+    padding: 10%;
+    border: 3% dottop red;
+    max-width: 100%;
+    /*
 	position: absolute;
 	left: 84%;
 	top: -10%;
-    size: 50px;
+    size: 30%;
+    max-width: 100%;
+
+    */
 }
 
 
@@ -24,7 +41,7 @@ body {
 p{
     font-size: 20px;
     font-weight: bold;
-    text-align: justify;
+    text-align: center;
     line-height: 25px;
     color: white;
 }
@@ -146,3 +163,20 @@ footer {
     text-align: center;
     box-sizing: border-box;
 }
+
+.acima {
+    background-color: blueviolet;
+    height: 40vh;
+    width:100%;
+    
+    }
+    
+    .abaixo {
+    background-color: brown;
+    height: 60vh;
+    width:100%;
+    
+    }
+
+
+

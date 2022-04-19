@@ -9,7 +9,7 @@
 }
 
 body {
-  background-color: #1F2531;
+  background-color: #000000;
 }
 
 main {
@@ -19,7 +19,7 @@ main {
 
 .container {
   width: 500px;
-  background-color: #474b53;
+  background-color: #48494d;
 
   padding: 50px;
 
@@ -33,7 +33,7 @@ h1 {
 }
 
 form {
-  margin-top: 20px;
+  margin-top: 10px;
 }
 
 .input-container {
