@@ -32,13 +32,13 @@ main {
 
     display: flex;
     width: 500px;
-    height: 700px;
-    padding: 50px;
-
+    height: 750px;
+    padding: 10px;
+    justify-content: center;
     flex-direction: column;
     background: #191919;
     border-radius: 20px; 
-    margin: 10px;   
+    margin: 20px;   
 }
 
 /*
@@ -70,15 +70,18 @@ h1 {
   
 form {
     margin-top: 10px;
+    
 }
   
 .input-container {
     display: flex;
     flex-direction: column; 
-    margin-top: 10px;
-
+    margin-top: 20px;
+    justify-content: center;
     width: 100%;
-    height: 10%;
+    height: 12%;
+    padding: 5px;
+    
       
 }
 
@@ -93,18 +96,29 @@ form {
 }
 */
 
+.input-container input {
+    margin-top: 5px;
+    height: 40px;
+    /* width: 310px; */
+    border-radius: 10px;
+    background-color: #7F7F7F;
+    border: 1px solid #1F2531;
+    outline: none;
+    padding: 10px;
+    
+}
+
 .teste {
     display: flex;
     flex-direction: row;
     margin-top: 10px;
-
+    justify-content: center;
     width: 100%;
     height: 10%;
         
 }
 
-  
-.input-container input {
+.teste input {
     margin-top: 5px;
      
     height: 50px;
@@ -114,10 +128,27 @@ form {
     border: 1px solid #1F2531;
     outline: none;
     padding: 10px;
+    justify-content: center;
 }
 
+.teste select {
+    margin-top: 5px;
+     
+    height: 50px;
+    /* width: 310px; */
+    border-radius: 10px;
+    background-color: #7F7F7F;
+    border: 1px solid #1F2531;
+    outline: none;
+    padding: 10px;
+    justify-content: center;
+}
 
+#complemento {
+    /*flex-grow: 1;*/
+    width: 100%; 
 
+}
 
 /* .input-containerParteDois input {
     margin-top: 5px;
@@ -133,7 +164,7 @@ form {
 
 
   
- input:focus {
+input:focus {
     border: 3px solid #8ACBF3;
 }
   
@@ -165,6 +196,13 @@ button {
  
 button:hover {
     background-color: #6c9fbf;
+}
+
+.divider {
+    background-color: #FFF;
+    margin-top: 50px;
+    width: 100%;
+    border: 1px solid #FFF;
 }
   
 .footer-container {
@@ -214,3 +252,11 @@ select {
 select:focus {
     border: 3px solid #8ACBF3;
 }
+
+.salvarInfo {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+
+}
+ 
