@@ -161,8 +161,6 @@ form {
     padding: 10px;
 
 } */
-
-
   
 input:focus {
     border: 3px solid #8ACBF3;
@@ -192,10 +190,12 @@ button {
     
     background: #0B68F4;
     border-radius: 20px;
+    transition: border-radius 200ms;
 }
  
 button:hover {
-    background-color: #6c9fbf;
+    background-color: #1e9dec;
+    /*border-radius: 10%;*/
 }
 
 .divider {
