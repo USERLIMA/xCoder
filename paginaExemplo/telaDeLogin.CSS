@@ -22,46 +22,17 @@ main {
 }
   
 .container {
-    /* width: 417px;
-    background-color: #48494d;
-  
-    padding: 50px;
-  
-    display: flex;
-    flex-direction: column; */
 
     display: flex;
     width: 500px;
-    height: 750px;
-    padding: 10px;
+    height: 500px;
+    padding: 20px;
     justify-content: center;
     flex-direction: column;
     background: #191919;
     border-radius: 20px; 
     margin: 20px;   
 }
-
-/*
-.containerParteDois {
-   < - width: 417px;
-    background-color: #48494d;
-  
-    padding: 50px;
-  
-    display: flex;
-    flex-direction: column; ->
-
-
-    display: flex;
-    width: 500px;
-    height: 700px;
-    padding: 50px;
-    margin-left: 50px;
-   
-    flex-direction: column;
-    background: #191919;
-    border-radius: 20px;    
-}*/
   
 h1 {
     display: flex;
@@ -82,18 +53,6 @@ form {
     
 }
 
-
-/* .input-containerParteDois {
-    display: flex;
-    flex-direction: column;
-    margin-top: 10px;
-
-    width: 100%;
-    height: 10%;
-      
-}
-*/
-
 .input-container input {
     height: 50px;
     /* width: 310px; */
@@ -104,81 +63,6 @@ form {
     padding: 10px;
     
 }
-
-.teste2 {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    width: 100%;
-    height: 10%;
-    padding: 10px;
-        
-}
-
-.teste3 {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    width: 100%;
-    height: 10%;
-    padding: 10px;
-}
-
-.teste2 input {
-    height: 50px;
-    /* width: 310px; */
-    border-radius: 10px;
-    background-color: #7F7F7F;
-    border: 1px solid #1F2531;
-    outline: none;
-}
-
-.teste3 input {
-    height: 50px;
-    /* width: 310px; */
-    border-radius: 10px;
-    background-color: #7F7F7F;
-    border: 1px solid #1F2531;
-    outline: none;
-    width: 130px;
-}
-
-.teste2 select {
-    height: 50px;
-    width: 150px;
-    border-radius: 10px;
-    background-color: #7F7F7F;
-    border: 1px solid #1F2531;
-    outline: none;
-}
-
-.teste3 select {
-    height: 50px;
-    width: 130px;
-    border-radius: 10px;
-    background-color: #7F7F7F;
-    border: 1px solid #1F2531;
-    outline: none;
-    padding: 10px;
-}
-
-#complemento {
-    height: 50px;
-    width: 250px;
-}
-
-
-/* .input-containerParteDois input {
-    margin-top: 5px;
-    height: 50px;
-    
-    border-radius: 10px;
-    background-color: #7F7F7F;
-    border: 1px solid #1F2531;
-    outline: none;
-    padding: 10px;
-
-} */
   
 input:focus {
     border: 3px solid #8ACBF3;
@@ -252,21 +136,6 @@ button:hover {
 
 input::placeholder {
     color: #FFF;
-}
-
-select {
-    width: 115px;
-    height: 70px;
-    /* width: 310px; */
-    border-radius: 10px;
-    background-color: #7F7F7F;
-    border: 1px solid #1F2531;
-    outline: none;
-
-}
-
-select:focus {
-    border: 3px solid #8ACBF3;
 }
 
 .salvarInfo {
