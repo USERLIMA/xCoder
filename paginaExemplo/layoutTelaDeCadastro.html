@@ -81,7 +81,7 @@
                     </select>
                   </div>
                   <div>
-                    <label for="complemento">complemento</label>
+                    <label for="complemento">Complemento</label>
                     <input type="text" name="complemento" id="complemento" placeholder = "Complemento de seu endereço">
                   </div>
                 </div>
@@ -100,31 +100,34 @@
 
           <div class="container">
             
-      
-            <form action="/cadastro" method="POST">
-              <div class="input-container">
-                <label for="cartao">Número do cartão</label>
-                <input type="text" name="cartao" id="cartao" placeholder = "Digite o número de seu cartão">
+ 
+            <form action="/cadastro" method="POST">     
+            <div class="input-container">
+              <div class="teste2">
+                <div>
+                  <label for="cartao">Tipo de cartão</label>
+                  <!-- <input type="city" name="Cidade" id="Cidade" placeholder = "Selecione sua cidade"> -->
+                  <select type="text" name="tipoCartao" id="tipoCartao" placeholder = "Selecione o tipo de cartão">
+                    <option value="Visa">Visa</option>
+                    <option value="MasterCard">MasterCard</option>
+                    <option value="Nubank">Nubank</option>
+                    <option value="Itau">Itau</option>
+                  </select>
+                </div>
+                <div>
+                  <label for="cartao">Número do cartão</label>
+                  <input type="text" name="complemento" id="complemento" placeholder = "Digite o número de seu cartão">
+                </div>
               </div>
-
-              <div>
-                <label for="tipoCartao">Tipo de Cartão</label>
-                <!-- <Enetnder por que quando diminuo a descrição as caixas ficam desalinhadas> -->
-                <select type="text" name="tipoCartao" id="tipoCartao" placeholder = "Selecione o tipo de cartão">
-                  <option value="Visa">Visa</option>
-                  <option value="MasterCard">MasterCard</option>
-                  <option value="Nubank">Nubank</option>
-                  <option value="Itau">Itau</option>
-                </select>
-              </div>
+            </div>      
 
               <div class="input-container">
-                
+                <div class="teste3">
                 <div>
                   <label for="validade">Validade do cartão</label>
                   <!-- <input type="city" name="Cidade" id="Cidade" placeholder = "Selecione sua cidade"> -->
 
-                  <select type="month" name="mes" id="mes" placeholder = "Selecione o mês">
+                  <select type="month" name="month" id="month" placeholder = "Selecione o mês">
                     <option value="1">Janeiro</option>
                     <option value="2">Fevereiro</option>
                     <option value="3">Março</option>
@@ -145,14 +148,14 @@
                     <option value="2024">2024</option>
                     <option value="2025">2025</option>
                   </select>
-                  <div>
-
+        
                     <label for="CVV">CVV</label>
                     <input type="date" name="CVV" id="CVV" placeholder = "Data de validade do cartão">
-                  </div>
+                  
 
                 </div>
 
+              </div>
               </div>
       
               <div class="input-container">
