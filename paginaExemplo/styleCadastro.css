@@ -275,4 +275,9 @@ select:focus {
     margin-top: 20px;
 
 }
- 
+
+.validadeCartao {
+    display: flex;
+    justify-content: center;
+
+}
